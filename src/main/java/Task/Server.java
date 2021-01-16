@@ -36,8 +36,4 @@ public class Server {
         connections.remove(client);
         System.out.println(connections.size());
     }
-
-//    public void closeServer() {
-//
-//    }
 }
