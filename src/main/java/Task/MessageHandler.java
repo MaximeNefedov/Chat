@@ -53,15 +53,4 @@ public class MessageHandler {
             }
         }
     }
-
-//    private void closeSocket() {
-//        try {
-//            in.close();
-//            out.close();
-//            socket.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 }

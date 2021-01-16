@@ -63,7 +63,7 @@ public class ClientHandler {
         }
     }
 
-    private synchronized void disconnect() {
+    public synchronized void disconnect() {
         thread.interrupt();
         try {
             in.close();
